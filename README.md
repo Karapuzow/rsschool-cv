@@ -15,9 +15,8 @@
 ### C#, .Net
 ### Git,GitHub
 
-## **
-Example of a task and code**:
-### В этом задании я находил минимальное количество купюр, которыми можно разменять заданную сумму. В процессе решения я использовал циклы, работал с массивом и выводом информации на экран.
+## ** Example of a task and code **:
+### In this task, I found the minimum number of bills that can be exchanged for a given amount. In the process of solving, I used loops, worked with an array and output information to the screen.
 ### using System;
 
 namespace Task
@@ -70,8 +69,7 @@ namespace Task
     }
 }
 ## Courses:
-### 
-basics of c# programming from Game Dev Academy
+### basics of c# programming from Game Dev Academy
 ## Languages:
 ### English - A2(A1 in processing)
 ### Russian - Native
