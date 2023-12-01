@@ -20,7 +20,6 @@ My name is Evgeny, I live in Belarus, I work in the energy sector. A few months 
 * Version control: Git (remote service GitHub)
 * Unity3d(basic knowledge)
 * Figma(for web development)
-
 ____
 
 ### Code examples: ###
