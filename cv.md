@@ -34,10 +34,10 @@ I decided to learn JavaScript, CSS & HTML.
             int[] banknotes = new int[banknotesCount];
 
 # Education
+2009-2013    Barysau State Politechnic College
 
-<p>2009-2013 <br>Barysau State Politechnic College</p>
- <p>2018-2023 <br>Belarusian State Agrarian Technical University (BSATU)</p>
+2018-2023    Belarusian State Agrarian Technical University (BSATU)
 
-   # Language
-   English - A2 <br>
-   Russian - Native</p>
+# Language
+ English - A2 <br>
+ Russian - Native</p>
