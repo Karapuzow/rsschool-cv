@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-	<script src="index.js"></script>
-  </body>
+    <title>CV</title>
+</head>
+
+<header class="header">
+    <div class="photo__div">
+        <img class="photo" url="github.com/Karapuzow/rsschool-cv/blob/rsschool-cv-html/img/5.jpg" width="300" height="400" alt="img1">
+    </div>
+    <div class="about_div"></div>
+        <h1 class="name">YAUHENI KARAPUZAU</h1>
+        <div class="about">
+            <p class="about__text">JUNIOR FRONT-END DEVELOPER</p>
+        </div>
+        <nav class="nav">
+            <ul class="nav">
+                <li><a href="">About me </a> </li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">My project</a></li>
+                <li><a href="">Education</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+</header>
+
+<main class="main">
+
+    <div class="about__me">
+        <h2>About me</h2>
+        My name is Evgeny, I live in Belarus, I work in the energy sector. A few months ago, I
+        decided to try my hand at IT, chose the direction of game and application development for myself. I successfully
+        completed courses in C#, but it was not enough and in order to turn my ideas into reality,
+        I decided to learn JavaScript, CSS & HTML.
+    </div>
+
+    <ul class="skills">
+        <h2>Skills</h2>
+        <li>HTML</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>GitHub</li>
+    </ul>
+
+    <div class="code">
+        <h2> Code </h2>
+
+        <code>
+            int[] amounts = new int[amount + 1];<br>
+            
+            amounts[0] = 0;<br>
+
+            int banknotesCount = Convert.ToInt32(Console.ReadLine());<br>
+            int[] banknotes = new int[banknotesCount];<br>
+
+            
+            for (int i = 0; i < banknotesCount; i++) { <br>banknotes[i]=Convert.ToInt32(Console.ReadLine()); } <br>//
+                <br>for (int j=1; j <=amount; j++) { <br>amounts[j]=Int32.MaxValue - 1; <br>// Создаем цикл для всех номиналов купюр for (int i=0;
+                    i < banknotesCount; i++) { <br>
+                        if (j>= banknotes[i])
+                        {<br>
+        </code>
+    </div>
+
+    <div class="my_projects">
+        <h2>My projects</h2>
+        <a href="https://karapuzow.github.io/cssBayan/"></a>
+    </div>
+
+    <div class="education">
+        <h2>Education</h2>
+        <p>2009-2013 <br>Barysau State Politechnic College</p>
+        <p>2018-2023 <br>Belarusian State Agrarian Technical University (BSATU)</p>
+        <p>English - A2 <br>Russian - Native</p>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li><a href="https://app.rs.school/">Rsschool</a></li>
+            <li><a href="https://web.telegram.org/">TG</a></li>
+            <li><a href="https://vk.com">VK</a></li>
+            <li><a href="https://instagram.com">Instagram</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+
 </html>
