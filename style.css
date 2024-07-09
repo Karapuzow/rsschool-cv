@@ -178,13 +178,21 @@ code {
 .contacts {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 .contacts__ul {
     display: flex;
-    flex-direction: row;
+    gap: 20px;
+}
+
+.footer__ul {
+    display: flex;
     justify-content: center;
+    gap: 30px;
+}
+
+.footer__p{
+    text-align: center;
+    margin-top: 10px;
 }
